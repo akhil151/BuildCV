@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Resume generator</title>
+	<title>buildCV</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/scroll.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/column_scroll.css">
@@ -11,7 +11,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 	<meta name="description" content="Online document editor like interface to create and save Resume">
-	<meta name="keywords" content="resume,cv,maker,creator,generator,iit,guwahati,iitg">
+	<meta name="keywords" content="resume,cv,maker,creator,generator,dtu,delhi">
 </head>
 
 <body>
@@ -25,10 +25,10 @@
 
 			<div id="panel">
 
-				<div id="notice">
+				<!-- <div id="notice">
 					<h4><i class="glyphicon glyphicon-exclamation-sign"></i> This link is outdated as of now.<br></h4>
 					<h4>Please use <a href="http://nitish6174.com/resume-generator/">nitish6174.com</a> till the updates are added to this link.</h4>
-				</div>
+				</div> -->
 
 				<button class="btn btn-block btn-primary" data-toggle="modal" data-target="#usageModal">VIEW INSTRUCTIONS</button>
 				<button class="btn btn-block btn-success" onclick="window.print()">PRINT AS PDF</button>
@@ -36,7 +36,7 @@
 				<hr>
 
 				<h3 class="text-center">Template settings</h3>
-				<button id="defaultTemplateBtn" class="btn btn-block btn-danger" onclick="template('default');">Use official IITG template</button>
+				<button id="defaultTemplateBtn" class="btn btn-block btn-danger" onclick="template('default');">Use official DTU template</button>
 				<button id="customTemplateBtn" class="btn btn-block btn-default" onclick="template('custom');">Use custom template</button>
 				<h5>
 					Minor
@@ -208,20 +208,20 @@
 				<div class="row" style="margin-bottom:10px;">
 				<div class="col-sm-12">
 					<div style="display:inline-block;" id="image_box">
-						<img src="images/iitg_logo.png" height="80" width="80">
+						<img src="images/DTU_logo.png" height="80" width="80">
 					</div>
 					<div id="info" style="display:inline-block;">
 						<h2 id="contentName">Student Name</h2>
-						<h5 id="contentRoll">Roll Number : 14010XXXX</h5>
+						<h5 id="contentRoll">Roll Number : 2KXX/XX/XXX</h5>
 						<h5 id="contentCourse">B.Tech - XXX Engineering</h5>
 						<h5 id="contentBranch">XXX Engineering</h5>
 						<h5 id="contentMinor">Minor in XXX</h5>
-						<h5 id="contentCollege">Indian Institute of Technology Guwahati</h5>
+						<h5 id="contentCollege">Delhi Technological University</h5>
 					</div>
 					<div id="contact" style="float:right; display:inline-block;">
 						+91-9999999999<br>
 						xyz.xyz@gmail.com<br>
-						abc@iitg.ac.in<br>
+						abc@dtu.ac.in<br>
 						<span class="light" id="contactLink1">www.linkedin.com/in/xyz123<br></span>
 						<span class="light" id="contactLink2">github.com/xyz123<br></span>
 					</div>
@@ -247,7 +247,7 @@
 							<tr>
 								<td>2014 - Present</td>
 								<td>B.Tech</td>
-								<td>Indian Institute of Technology, Guwahati</td>
+								<td>Delhi Technological University,Delhi</td>
 								<td>9.00 (Current)</td>
 							</tr>
 							<tr>
@@ -353,7 +353,7 @@
 						<div class="time right">Apr 2016</div>
 						</div>
 						<div>
-						<div class="mentor tab">Dr. XYZ, Associate Professor, Dept. of XXX, IIT Guwahati</div>
+						<div class="mentor tab">Dr. XYZ, Associate Professor, Dept. of XXX, DTU ,Delhi</div>
 						<div class="link right">goo.gl/link</div>
 						</div>
 						<div>
@@ -450,7 +450,7 @@
 						<hr class="hr-below">
 					</div>
 					<ul>
-						<li>XYZ Head, ABC 2016 (the annual XYZ of IIT Guwahati)</li>
+						<li>XYZ Head, ABC 2016 (the annual XYZ of DTU)</li>
 						<li>City representative, New Delhi, ABC 2015</li>
 					</ul>
 				</div>
@@ -586,7 +586,7 @@
 				<h4><strong>Editing template</strong></h4>
 				<ul>
 					<li>Use the options in the left panel to modify the template/look.</li>
-					<li>In case you want to use a different template than the official IITG template, choose the corresponding button to see other setting options. (For on-campus purpose, you must use official IITG template)</li>
+					<li>In case you want to use a different template than the official DTU template, choose the corresponding button to see other setting options. (For on-campus purpose, you must use official DTU template)</li>
 				</ul>
 				<h4><strong>Saving</strong></h4>
 				<ul>
